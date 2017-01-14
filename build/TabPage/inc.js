@@ -6,19 +6,18 @@ const setSelectedColor = colorClass => {
 	body.className = 'body-color ' + colorClass;
 };
 
-/*
+/**
  * Set the class `select` to the parent of the current selected color value.
- * Warning: This function is not that optimized and it's quite intensive since it traverses the
- * DOM nodes several times.
+ *
+ * @method setSelectedElement
+ *
+ * @param {string} colorReference The new selected color
  */
 const setSelectedElement = colorReference => {
-	const colorWrappers = document.getElementsByClassName('color-select-wrapper');
-	for (wrapper of colorWrappers) {
-		wrapper.className = 'color-select-wrapper';
-		for (childNode of wrapper.childNodes) {
-			if (childNode.className && childNode.className.includes('color-select ' + colorReference)) {
-				childNode.parentNode.className = 'color-select-wrapper selected';
-			}
-		}
+	const oldSelectedColor = document.getElementsByClassName('selected')[0];
+	if (oldSelectedColor) {
+		oldSelectedColor.className = 'color-select-wrapper';
 	}
+	const newSelectedColor = document.getElementsByClassName('color-select ' + colorReference)[0];
+	newSelectedColor.parentNode.className = 'color-select-wrapper selected';
 };
