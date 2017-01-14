@@ -4,9 +4,9 @@ A minimalistic extensions that displays a colored new tab (with color selector).
 
 ## Screenshots
 
-![Screenshot](_assets/cnt_ss_normal_midnight-blue.png "Normal Midnight Blue Color")
+![Screenshot](assets/cnt_ss_normal_midnight-blue.png "Normal Midnight Blue Color")
 
-![Screenshot](_assets/cnt_ss_hover_belize-hole.png "Hovered Belize Hole Color")
+![Screenshot](assets/cnt_ss_hover_belize-hole.png "Hovered Belize Hole Color")
 
 ## Installation
 
