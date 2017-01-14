@@ -1,6 +1,11 @@
 # Colored New Tab Chrome Extension
 
-A minimalistic extensions that displays a colored new tab (with color selector).
+A minimalistic Chrome extension that replaces the New Tab page with simple single color.
+
+Features:
+- Fast loading
+- Beautiful full page colors
+- Unobtrusive color switcher 
 
 ## Screenshots
 
