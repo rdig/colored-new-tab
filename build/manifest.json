@@ -1,6 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Colored New Tab",
+  "short_name": "New Tab Page",
   "version": "0.1.1",
   "description": "Google Chrome (or Chromium) extension that opens the new tab in a specific color",
   "author": "Raul Glogovetan",
