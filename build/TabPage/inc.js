@@ -4,15 +4,6 @@ const setSelectedColor = colorClass => {
 	 */
 	const body = document.getElementsByClassName('body-color')[0];
 	body.className = 'body-color ' + colorClass;
-	/*
-	 * Set the selected color as the border to the `color-select` elements
-	 * (so it appears as the color to the inner border)
-	 */
-	const colorElements = document.getElementsByClassName('color-select');
-	for (element of colorElements) {
-		const currentColor = element.className.split(' ').pop();
-		element.className = 'border-' + colorClass + ' color-select ' + currentColor;
-	}
 };
 
 /*

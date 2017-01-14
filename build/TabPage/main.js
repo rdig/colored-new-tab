@@ -7,7 +7,6 @@ window.onload = event => {
 	 * Get the data from Chrome storage and set the color
 	 */
 	getChromeData('color', ({ color = 'gtk-dark' }) => {
-		
 		setSelectedColor(color);
 		setSelectedElement(color);
 	});

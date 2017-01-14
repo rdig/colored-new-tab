@@ -52,8 +52,7 @@ body {
 }
 
 .color-select {
-	border-width: 2px;
-	border-style: solid;
+	margin: 2px;
 	height: 20px;
 	width: 20px;
 	border-radius: 24px;
@@ -68,31 +67,12 @@ body {
 }
 
 .gtk-dark { background-color: #232629; }
-.border-gtk-dark { border-color: #232629; }
-
 .clouds { background-color: #ecf0f1; }
-.border-clouds { border-color: #ecf0f1; }
-
 .belize-hole { background-color: #2980b9; }
-.border-belize-hole { border-color: #2980b9; }
-
 .green-sea { background-color: #16a085; }
-.border-green-sea { border-color: #16a085; }
-
 .wisteria { background-color: #8e44ad; }
-.border-wisteria { border-color: #8e44ad; }
-
 .midnight-blue { background-color: #2c3e50; }
-.border-midnight-blue { border-color: #2c3e50; }
-
 .orange { background-color: #f39c12; }
-.border-orange { border-color: #f39c12; }
-
 .pumpkin { background-color: #d35400; }
-.border-pumpkin { border-color: #d35400; }
-
 .pomegranate { background-color: #c0392b; }
-.border-pomegranate { border-color: #c0392b; }
-
 .asbestos { background-color: #7f8c8d; }
-.border-asbestos { border-color: #7f8c8d; }
