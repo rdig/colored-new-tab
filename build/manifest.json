@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Colored New Tab",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Google Chrome (or Chromium) extension that opens the new tab in a specific color",
   "author": "Raul Glogovetan",
   "homepage_url": "https://github.com/rdig/colored-new-tab",
