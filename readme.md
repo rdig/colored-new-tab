@@ -15,13 +15,19 @@ Features:
 
 ## Installation
 
-Since it's not yet released on Google's Chrome Web Store you have to install it manually.
+### Manual
 
 - Clone the repo (`git clone git@github.com:rdig/colored-new-tab.git`)
 - Open your Chrome Browser *(or Chromium)*
 - Go to **Settings** > **Extensions**
 - Click **Load unpacked extension...**
 - Point the file seletor the the folder where you clone this repo
+
+### Via Chrome Webstore
+
+- Open your Chrome Browser *(or Chromium)*
+- Go to [Colored New Tabs](https://chrome.google.com/webstore/detail/colored-new-tab/bfjhjeccmlkbbgliegkapplkpkcngeaa) on the Chrome Webstore
+- Click **Add to Chrome**
 
 ## Permissions
 
